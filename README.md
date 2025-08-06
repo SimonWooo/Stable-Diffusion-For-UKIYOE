@@ -34,29 +34,33 @@ CPU：Intel i5、i7、i9 13代及其以上；
 網絡：確保鏈接 Github.com；
 記憶體：DDR4 3200MHz 16GB；
 驅動：請保持最新版本Nvidia GeForce Game Ready 驅動程式
-[圖片]
+<img width="1280" height="579" alt="image" src="https://github.com/user-attachments/assets/d7ee6146-8866-40b7-9fb9-de74135ac2de" />
+
 
 III. 環境設定
 
 i.git 安裝
 https://git-scm.com/
 選擇Downloads
-[圖片]
+<img width="1280" height="639" alt="image" src="https://github.com/user-attachments/assets/6e0ac91b-788e-4866-8215-780ebeee057a" />
+
 選擇Windows
-[圖片]
+<img width="1280" height="639" alt="image" src="https://github.com/user-attachments/assets/d803b0ea-19c5-415e-bfd4-496c595a27a0" />
+
 選擇Git for Windows/x64 Setup
-[圖片]
+<img width="1120" height="629" alt="image" src="https://github.com/user-attachments/assets/35019573-dd1b-4b9a-8dbe-390a701dc183" />
+
 下載後常規安裝即可，可佈署在非系統盤符
 
 NOTE：Git 安裝教程及其本文檔其他軟件安裝教程，請務必保證所有本地地址不能包含任何中文字符或特殊字符：@#￥%……&*（）_+等。
 E.g. 正確的不含中文地址爲E:\Software\Git
 
 可根據以下動畫檢查地址欄是否存在中文
-[圖片]
+
 ii.Python安裝
 https://www.python.org/downloads/release/python-3106/
 請打開此網站或直接下載本文附上的安裝包。請核實版本號是否為Python Release Python 3.10.6
-暫時無法在飛書文件外展示此內容
+
 請注意，安裝第一步，請務必勾選Add python.exe to PATH
 [圖片]
 後續請默認安裝，應爲在C盤符（系統盤）
