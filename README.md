@@ -2,6 +2,7 @@
 Stable Diffusion WebUI本地佈署及其應用——基於Windows系統64位
 
 I. 前言
+
 本文檔目的為方便閣下通過Artificial intelligent (AI)去生產圖片/修改圖片，包括但不限於生成概念圖、LOGO美化、修復低位數圖像。故此通過本教程可使用個人辦公電腦進行低算力的圖像工作。希望此教程能夠一定限度減少閣下工作量。
 
 此文僅對官方文檔安裝教程作一定優化，包括規避一些BUG出現、增加步驟使其更明晰並規避安裝出現的報錯解決方法。
@@ -26,6 +27,7 @@ iv.用於任何違反公序良俗或社會倫理之用途。
 如閣下違反AI使用規定，可面臨包括並不限於即時紀律聆訊、經濟責任追溯，嚴重者可能面臨刑事檢控。
 
 II. 安裝前檢查
+
 硬盤：≥450GB 不建議佈署在機械硬盤/SATA端口的固態硬盤中；
 CPU：Intel i5、i7、i9 13代及其以上；
 顯卡：Nvidia-GPU 記憶體≥8G 4070及其以上；
@@ -33,7 +35,9 @@ CPU：Intel i5、i7、i9 13代及其以上；
 記憶體：DDR4 3200MHz 16GB；
 驅動：請保持最新版本Nvidia GeForce Game Ready 驅動程式
 [圖片]
+
 III. 環境設定
+
 i.git 安裝
 https://git-scm.com/
 選擇Downloads
@@ -75,7 +79,9 @@ git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 [圖片]
 中途如程序提示“請按任意鍵繼續”，關閉cmd窗口，檢查網絡是否能夠鏈接GitHub.com并重新打開webui-user.bat
 如有任何問題，請附言於本文評論處。
+
 IV. 模型下載
+
 https://huggingface.co/models?pipeline_tag=text-to-image&sort=downloads
 https://civitai.com/
 可進入此網站下載開源模型
@@ -107,7 +113,9 @@ V.Stable Diffusion中文界面設置
 [圖片]
 Note：Stable Diffusion WebUI為開源平臺，可加載所需要的模型、插件等，來實現不同的功能。
 VI.Stable Diffusion應用
+
 i.生圖功能
+
 [圖片]
 請注意，不同的模型所生產的圖片風格均有不同。
 請自行嘗試。
@@ -124,6 +132,7 @@ iii.換裝
 [圖片]
 
 iv.logo轉3D效果
+
 請選擇文生圖界面，選擇revAnimated_v2Rebirth.safetensors模型，如無，請前往本文IV章節。
 [圖片]
 [圖片]
